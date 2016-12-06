@@ -33,12 +33,18 @@
   border-top-right-radius: 0;
 }
 
-input [Text]{
-  border: 1px solid #c8c8c8;
-  border-radius: 6px;
-  height: 50px;
+h2.form-signin-heading.text-center {
+    padding-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
   width: 100%;
-  color: #999;
-  text-align: center;
-  font-size: 18px;
+    height: 3em;
+    outline: none;
+    color: #5c5e60;
+    padding: 0 10px;
+    font-size: .9em;
+    border-radius: 2px;
+    border: 2px solid #e0e0e0;
+    font-size: .7em;
 }
